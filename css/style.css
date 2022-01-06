@@ -1,0 +1,108 @@
+
+
+
+/*App*/
+.app{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:#eee;
+    position:absolute;
+    width:100%;
+    height:100vh;
+    z-index:100;
+}
+
+.part-1-app > form{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#input-1{
+    margin-bottom:20px;
+    padding-left:15px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;   
+
+}
+#input-1::placeholder{
+    color:#000;
+    margin:auto;
+    font-weight: 700;   
+}
+#input-1:focus{
+    color:#000;
+    font-weight: 700;   
+    
+}
+
+.part-2-app{
+    display:none;
+    
+}
+.name{
+    margin:auto;
+    margin-bottom:15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.part-3-app{
+    display:none;
+}
+.part-4-app{
+    display:none;
+}
+
+.loquedoy{
+    text-align: center;
+    font-size:30px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.resultadoFinal{
+    text-align: center;
+    font-size:20px;
+}
+.part-5-app{
+    display:none
+}
+.part-6-app{
+    display:none;
+}
+.resultadoFinal{
+    display:none;
+}
+
+/*particle.js*/
+#particles-js{
+    background: #283747 ;
+    position:absolute;
+    height:100vh;
+}
+.moon{
+    position:absolute;
+    z-index:20;
+    width:100px;
+    height:100px;
+    background:#eee;
+    border-radius:20rem;
+    box-shadow: 0 0 5px #0b6ef0,
+    0 0 20px #0b6ef0,
+    0 0 40px #0b6ef0,
+    0 0 80px #0b6ef0;
+    top:50px;
+    left:25px;
+}
+.moon::before{
+    content:"";
+    display:block;
+    width:20px;
+    height:20px;
+    background:rgba(0,0,0,.2);
+    border-radius:20rem;
+    position:absolute;
+    left:60px;
+    margin-top:20px;
+}
